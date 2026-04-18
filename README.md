@@ -22,7 +22,7 @@ A complete power systems study of the Lucknow 132kV sub-transmission network ope
 
 ---
 
-## Charts
+#### Visual Outputs
 
 ### Analysis Panels — Voltage Profile · Line Loading · N-1 Heatmap
 ![Analysis Charts](output_real.png)
@@ -53,7 +53,7 @@ A complete power systems study of the Lucknow 132kV sub-transmission network ope
 
 ---
 
-## What This Project Does — Step by Step
+#### Methodology
 
 ```
 Step 1  Load 14 real UPPTCL 132kV substation locations + transformer MVA
@@ -72,8 +72,8 @@ Step 8  Generate 3-panel chart + geographic SLD + save CSV
 
 ```bash
 # Clone the repository
-git clone https://github.com/Aditya7171-maker/lucknow-power-grid-analysis.git
-cd lucknow-power-grid-analysis
+git clone https://github.com/Aditya7171-maker/lucknow-power-grid-analysis-132kv.git
+cd lucknow-power-grid-analysis-132kv
 
 # Install dependencies
 pip install pypsa pandas numpy matplotlib scipy
@@ -86,7 +86,7 @@ python lucknow_132kv_analysis.py
 
 ---
 
-## Key Concepts Used
+##  Technical Concepts
 
 | Concept | What It Means |
 |---|---|
